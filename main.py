@@ -33,7 +33,7 @@ def index():
 
 def run_discord_bot():
     # Replace 'your_bot_token' with the actual token of your Discord bot.
-    bot.run("MTEzNDUzNDYwMjQ4MDk2MzY0NQ.GBgiTW.Affwoe0IRvwyuX2cRFAdjVoxJhIDOuKkUSwO0Y")
+    bot.run("process.env.token")
 
 if __name__ == '__main__':
     # Start the Discord bot in a separate thread
