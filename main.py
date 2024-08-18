@@ -17,7 +17,7 @@ async def on_ready():
 
 @bot.event
 async def on_member_join(member):
-    channel = bot.get_channel(1134099860589641780)
+    channel = bot.get_channel("channel_ID")
     embed = discord.Embed(title=f"Welcome to the server, {member.name}!", color=0xFFD700)
     embed.add_field(name="Rules", value="Be sure to read the rules before you start.", inline=False)
     avatar_url = member.avatar.url if member.avatar else member.default_avatar.url
